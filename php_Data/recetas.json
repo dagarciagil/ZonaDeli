@@ -1,0 +1,165 @@
+{
+  "recipes": {
+    "lemon-dessert": {
+      "title": "Postre de limón",
+      "ingredients": [
+        "1 bolsa de 220 g de Crema de Leche",
+        "6 limones",
+        "1 sobre de gelatina sin sabor",
+        "½ tz Leche Condensada",
+        "1 taco de galletas Ducales"
+      ],
+      "preparation": [
+        "En un bowl, mezcla la Crema de Leche con la Leche Condensada y la gelatina sin sabor.",
+        "Rallamos tres limones.",
+        "En el molde donde vamos a colocar la mezcla, colocamos dos capas de galletas Ducales.",
+        "Colocamos la mezcla encima de las galletas y agregamos la ralladura de los limones.",
+        "Llevamos la mezcla al refrigerador de 2 a 4 horas."
+      ],
+      "image": "/img/recetas/lemon-dessert.jpg"
+    },
+    "pay-apple": {
+      "title": "Pay de manzana",
+      "ingredients": [
+        "2 ½ tazas de harina",
+        "½ cucharadita de sal",
+        "4 cucharadas de azúcar",
+        "225 gr de mantequilla en trozos",
+        "1 huevo grande",
+        "2 cucharadas de agua fría",
+        "6-8 manzanas",
+        "¾ de taza de azúcar",
+        "¼ de taza de mantequilla sin sal",
+        "2 cucharadas de harina",
+        "una pizca de nuez moscada rayada",
+        "2 cucharaditas de canela",
+        "½ cucharadita de sal",
+        "1 cucharada de zumo de limón"
+      ],
+      "preparation": [
+        "En un bol grande mezcla la harina, la sal y el azúcar. Con los dedos ve añadiendo los trozos de mantequilla y mezclando todos estos ingredientes.",
+        "Añade el huevo ligeramente batido. Si te cansas, puedes usar un tenedor.",
+        "Si la masa se está quedando templada déjala unos minutos en la nevera.",
+        "¿Estás viendo que además se está quedando seca? añade el agua fría poco a poco mientras vas mezclando. Pero cuidado, no la viertas toda de golpe, si no la masa te puede quedar pegajosa.",
+        "Ahora divide la mezcla en dos, la envuelves con plástico y la introduces en la nevera por lo menos una hora.",
+        "Mientras, haz el relleno.",
+        "Pelas y corta las manzanas (cada mitad en 4 trozos). Pon los trozos en un bol y encima echa el zumo de limón, el azúcar, la sal y la canela. Mezcla todo con la mano o con una cuchara grande.",
+        "En una sartén a fuego medio junta la mantequilla con la harina, echa las manzanas y remueve hasta que el azúcar se absorba (habrán transcurrido aproximadamente 2 minutos). Cubre la sartén durante 7 minutos para que las manzanas se vayan ablandando.",
+        "Retira del fuego.",
+        "Si ya ha pasado una hora desde que metiste la masa en la nevera, sácala y coge una de las dos partes para poner la base del pie de manzana. Estírala en un molde circular hasta la altura de los bordes del mismo. pon las manzanas encima y cubre con la otra parte de la masa previamente estirada en forma circular.",
+        "Una vez tapado el relleno puedes hacer unos cortes en forma de X sobre la masa superior o si no, puedes cortarla en tiras e ir colocándolas sobre la manzana de forma horizontal y vertical.",
+        "Mete el pie de manzana en el horno precalentado a 230º C durante 40 minutos aproximadamente."
+      ],
+      "image": "/img/recetas/pie_manzana.jpeg"
+    },
+    "tiramisu": {
+      "title": "Tiramisú",
+      "ingredients": [
+        "250 g de queso mascarpone",
+        "3 huevos",
+        "100 g de azúcar",
+        "200 ml de café espresso",
+        "1 paquete de bizcochos de soletilla",
+        "2 cucharadas de cacao en polvo sin azúcar",
+        "1 cucharada de licor de café (opcional)"
+      ],
+      "preparation": [
+        "Separa las yemas de las claras y bate las yemas con el azúcar hasta obtener una mezcla cremosa.",
+        "Añade el queso mascarpone y mezcla bien hasta obtener una crema homogénea.",
+        "Bate las claras a punto de nieve y agrégalas a la mezcla con movimientos envolventes.",
+        "Sumerge los bizcochos de soletilla en el café mezclado con el licor de café.",
+        "Coloca una capa de bizcochos en un molde y cubre con una capa de crema de mascarpone.",
+        "Repite el proceso hasta terminar con una capa de crema.",
+        "Espolvorea el cacao en polvo sobre la capa final y refrigera por al menos 4 horas antes de servir."
+      ],
+      "image": "/img/recetas/tiramisu.jpg"
+    },
+    "cheesecake": {
+      "title": "Cheesecake",
+      "ingredients": [
+        "200 g de galletas trituradas",
+        "100 g de mantequilla derretida",
+        "500 g de queso crema",
+        "200 ml de crema de leche",
+        "150 g de azúcar",
+        "3 huevos",
+        "1 cucharada de esencia de vainilla",
+        "Mermelada de fresa para decorar"
+      ],
+      "preparation": [
+        "Mezcla las galletas trituradas con la mantequilla derretida y presiona en el fondo de un molde.",
+        "Bate el queso crema con el azúcar hasta obtener una mezcla suave.",
+        "Añade los huevos uno por uno, mezclando bien después de cada adición.",
+        "Incorpora la crema de leche y la esencia de vainilla.",
+        "Vierte la mezcla sobre la base de galletas y hornea a 160°C durante 50 minutos.",
+        "Deja enfriar completamente y cubre con mermelada de fresa antes de servir."
+      ],
+      "image": "/img/recetas/cheesecake.jpg"
+    },
+    "flan": {
+      "title": "Flan de caramelo",
+      "ingredients": [
+        "4 huevos",
+        "500 ml de leche",
+        "100 g de azúcar",
+        "1 cucharada de esencia de vainilla",
+        "100 g de azúcar para el caramelo"
+      ],
+      "preparation": [
+        "Prepara el caramelo calentando el azúcar en una sartén hasta que se derrita y tome un color dorado.",
+        "Vierte el caramelo en el fondo de un molde para flan y deja enfriar.",
+        "Bate los huevos con el azúcar y la esencia de vainilla hasta integrar bien.",
+        "Añade la leche y mezcla hasta obtener una consistencia homogénea.",
+        "Vierte la mezcla en el molde con caramelo y hornea a baño maría a 180°C durante 50 minutos.",
+        "Deja enfriar y refrigera por al menos 4 horas antes de desmoldar y servir."
+      ],
+      "image": "/img/recetas/flan.jpg"
+    },
+    "brownies": {
+      "title": "Brownies de chocolate",
+      "ingredients": [
+        "200 g de chocolate negro",
+        "150 g de mantequilla",
+        "150 g de azúcar",
+        "3 huevos",
+        "100 g de harina",
+        "1 cucharadita de esencia de vainilla",
+        "50 g de nueces picadas (opcional)"
+      ],
+      "preparation": [
+        "Derrite el chocolate junto con la mantequilla a baño maría o en el microondas.",
+        "Bate los huevos con el azúcar hasta que la mezcla se vuelva espumosa.",
+        "Añade el chocolate derretido y la esencia de vainilla.",
+        "Incorpora la harina tamizada y mezcla hasta obtener una masa homogénea.",
+        "Agrega las nueces picadas si lo deseas.",
+        "Vierte la mezcla en un molde engrasado y hornea a 180°C durante 25 minutos.",
+        "Deja enfriar antes de cortar en porciones."
+      ],
+      "image": "/img/recetas/brownies.jpg"
+    },
+    "muffins": {
+      "title": "Muffins de arándanos",
+      "ingredients": [
+        "250 g de harina",
+        "100 g de azúcar",
+        "1 sobre de polvo de hornear",
+        "2 huevos",
+        "125 ml de leche",
+        "100 g de mantequilla derretida",
+        "1 cucharadita de esencia de vainilla",
+        "150 g de arándanos frescos"
+      ],
+      "preparation": [
+        "Precalienta el horno a 180°C y coloca cápsulas de papel en un molde para muffins.",
+        "En un bol, mezcla la harina, el azúcar y el polvo de hornear.",
+        "En otro bol, bate los huevos con la leche, la mantequilla derretida y la esencia de vainilla.",
+        "Incorpora los ingredientes secos a la mezcla líquida y mezcla hasta integrar.",
+        "Añade los arándanos y mezcla suavemente.",
+        "Llena las cápsulas hasta ¾ de su capacidad y hornea durante 20 minutos.",
+        "Deja enfriar antes de servir."
+      ],
+      "image": "/img/recetas/muffins.jpg"
+    }
+    
+  }
+}

@@ -1,0 +1,89 @@
+.form-section {
+  display: none;
+
+  &--active {
+    display: flex; // Cambiamos a flex para centrar el contenido
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; // Ancho de la ventana activa.
+    height: 100vh; // Alto de la ventana activa.
+    background-color: rgba(0, 0, 0, 0.7); // Fondo semi-transparente
+    z-index: 1; // Aseguramos que esté por encima de todo
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__article {
+    //el article se pone encima de la ventana activa form--active
+    width: 25rem; //tamaño de la caja donde va a ir el formulario
+    height: 30rem;
+    z-index: 2; // Un z-index mayor que el form--active
+    background-color: #e7b3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    outline: 0.2rem solid rgb(133, 174, 255);
+    //Ponemos el fondo de la caja con un degradado circular con un rosado y un blanco
+    background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(231, 179, 244, 0.4)),url("/img/fondo_form.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__close {
+    //boton de cerrar
+    position: relative;
+    left: 10rem;
+    background-color: #fbc8c1;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+    text-decoration: underline;
+  }
+
+  &__label {
+    width: 100%;
+    text-align: left; // no funciona el text-align sin el width
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  &__input:focus {
+    border: 0.1rem solid rgb(111, 183, 255);
+    transform: scale(1.1);
+  }
+
+  &__enviar {
+    //boton de enviar
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fbc8c1;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  &__enviar:hover,
+  &__close:hover {
+    outline: 0.2rem solid rgb(133, 174, 255);
+    background-color: rgba(231, 179, 244, 0.4);
+    transform: scale(1.1);
+  }
+}

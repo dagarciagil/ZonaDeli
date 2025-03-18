@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+.header {
+  background-color: #fbc8c1; //moradito claro del header
+
+  &__banner {
+    background-color: #e7b3f4; //moradito oscuro del banner y de la tabla del index principal
+    border-bottom: 0.2rem solid #ffffff;
+  }
+
+  &__title {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+  }
+
+  &__nav {
+    //por defecto el flex-direction es row, y el justify-content es flex-start
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 0.2rem solid #ffffff;
+  }
+
+  &__logo {
+    position: relative;
+    left: 6%; // position relative para poder usar left
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 0.2rem solid #ffffff;
+  }
+
+  &__menu { //div header_menu
+    position:relative;
+    left:60%;
+    &-list { //lista desordenada <ul>
+      list-style: none;
+      display: flex;
+      gap: 3rem; //separa los links
+      font-size: 1.5rem;
+    }
+    &-link { //son los anchors <a> que estan dentro de las <li> 
+      text-decoration: none; // Quita la línea predeterminada
+      color: white;
+      position: relative; // Para posicionar el ::after correctamente.
+    }
+
+    &-link::after {
+      content: ""; // Necesario para que el pseudo-elemento aparezca, siempre se coloca en after y before
+      position: absolute;
+      left: 0;
+      bottom: 0; // Ajusta la distancia de la línea respecto al texto
+      width: 0; // Comienza sin ancho
+      height: 0.1rem; // Grosor de la línea
+      background-color: oklch(77.18% 0.1524 354.07); // Color violeta chillón para la linea (caja que solo tienen altura)
+      transition: width 0.3s ease-in-out; // Animación suave
+    }
+    &-link:hover{ //el color para las letras
+      color: oklch(77.18% 0.1524 354.07);
+    }
+    &-link:hover::after {
+      width: 100%; // Expande la línea al hacer hover 
+    }
+  }
+}
+
+.footer {
+  background-color: #222; // Color oscuro elegante
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__links {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: #fbc8c1; // Color pastel
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffd700; // Amarillo dorado en hover
+      }
+    }
+  }
+}

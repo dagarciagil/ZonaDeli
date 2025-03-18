@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "consumoapi_ig_zona_deli",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch --style=compressed public/scss/index.scss public/css/bundle.css",
+    "build": "rollup  --watch --config"
+  },
+  "author": "Diego Garcia",
+  "license": "es",
+  "description": ""
+}

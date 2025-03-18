@@ -1,0 +1,87 @@
+.main{
+  background-color: #fbc8c1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; //como esta por columna el align-items centra el contenido horizontalmente
+}
+
+.section-img {
+  width: 100vw;
+  height: 90vh;
+  border-bottom: 0.2rem solid #ffffff;    
+
+  //efecto parallax - se mueve la imagen de fondo mientras se desplaza el contenido
+  background-image: url("/img/postre_limon.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.instagram-feed {
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  justify-content: center; //centrar el contenido horizontalmente
+  gap: 2rem; // se para los reels, separa la malla
+  width: 75vw; //ancho del section (fondo amarillo donde van los reels)
+  height: auto;
+  padding-top: 1rem; //separa la malla de la parte de arriba del section instagram-feed
+  padding-bottom: 1rem; //separa la malla de la parte de abajo del section instagram-feed
+  background-color: #fefacc; //Amarillo pastel
+  
+  
+  &__reel-card {
+    width: 10rem; //ancho de los reels
+    height: 10rem; //alto de los reels
+    border-radius: 8px;
+    background-color: #e7b3f4; //morado de los reels cards
+    padding: 0.5rem;
+
+    img,
+    video {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  }
+}
+
+.table-container {
+  width: 60vw;
+  height: 25vh;
+  background-color: #fefacc;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  overflow-x: hidden; //Para que no se desborde el contenido de la tabla
+
+  &__table {  //estilos de la tabla
+    width: 100%;
+    height: auto; //para que se ajuste al contenido que se va agregando
+    border-collapse: collapse; // Permite que los bordes se unan
+    border-radius: 8px;
+    
+    thead {  // estilos de encabezado de la tabla
+      color: #ffffff;
+      background-color: #ee9999; //morado de la tabla y del banner
+      th {
+        outline: 1px solid #fff;
+      }
+    }
+    
+    tbody { //estilos de las filas del cuerpoo de la tabla
+      background-color: #e7b3f4;  //color de fondo de las filas del cuerpo de la tabla
+      tr { //Filas del cuerpo de la tabla
+        outline: 1px solid #fff;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+        td{ //Celda de la tabla
+          outline: 1px solid #fff;
+        }
+      }
+    }
+  }
+}
+
