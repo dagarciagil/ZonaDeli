@@ -14,6 +14,7 @@ try {
     $conn = new PDO("pgsql:host=$servername;dbname=$dbname", $username, $password, [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ]);
+    $conn->exec("DEALLOCATE ALL;");
 } catch (PDOException $e) {
     echo json_encode(["error" => "Error de conexión: " . $e->getMessage()]);
     exit;

@@ -9,7 +9,7 @@ const reels = async () => {
     const datos = await response.json();
      //le envíamos los datos de los reels como parametro a la función MostrarPost
     MostrarPost(datos);
-    // console.log("conexión exitosa", datos.data); //el segundo data es un objeto con todos los datos de los reels, como los JSON de la monografía
+    // console.log("conexión exitosa", datos.data); //el data es un objeto con todos los datos de los reels, parecido a la monografía
   } catch (error) {
     console.log("error no se pudo conectar con la API",error);
   }
@@ -169,24 +169,24 @@ document.getElementById("contacto").addEventListener("click", () => {
   }, 100); // Esperamos un poco para asegurarnos de que el formulario existe en el DOM
 });
 
-const cargarDatos = async () =>{
+const cargarDatos = async () => {
   try {
     const response = await fetch("/php_Data/table_get.php");
 
     const data = await response.json();
     console.log(data);
-    
-    const tbody = document.getElementById('tbody');
 
-    data.forEach(datos =>{
-     const fila = document.createElement('tr');
-     fila.innerHTML += `
+    const tbody = document.getElementById("tbody");
+
+    data.forEach((datos) => {
+      const fila = document.createElement("tr");
+      fila.innerHTML += `
       <td>${datos.id}</td>
       <td>${datos.name}</td>
       <td>${datos.email}</td>
       <td>${datos.celular}</td>
      `;
-     tbody.appendChild(fila);
+      tbody.appendChild(fila);
     });
   } catch (error) {
     console.log(error);
