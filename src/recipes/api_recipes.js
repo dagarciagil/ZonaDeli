@@ -3,19 +3,19 @@ const callRecipes = async () => {
     const response = await fetch(
       "/php_Data/recetas.json"
     ); // Ruta del JSON
-    const data = await response.json();
-    showRecipes(data);
+    const dataRecetas = await response.json();
+    showRecipes(dataRecetas);
   } catch (error) {
     console.error("Error al cargar las recetas:", error);
   }
 };
 
 const mainContainer = document.querySelector(".main"); // Obtener el contenedor principal del HTML (recipes)
-const showRecipes = (data) => {
+const showRecipes = (dataRecetas) => {
   const containerRecipes = document.createElement("section");
   containerRecipes.classList.add("recipes");
 
-  Object.entries(data.recipes).forEach(([key, recipe]) => {
+  Object.entries(dataRecetas.recipes).forEach(([key, recipe]) => {
     // Extraemos la clave y el objeto receta 
 
     const containerRecipesRight = document.createElement("section");

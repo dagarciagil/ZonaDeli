@@ -2,12 +2,12 @@ const cargarDatos = async () => {
   try {
     const response = await fetch("/php_Data/table_get.php");
 
-    const data = await response.json();
-    console.log(data);
+    const dataTable = await response.json();
+    // console.log(dataTable);
 
     const tbody = document.getElementById("tbody");
 
-    data.forEach((datos) => {
+    dataTable.forEach((datos) => {
       const fila = document.createElement("tr");
       fila.innerHTML += `
       <td>${datos.id}</td>
